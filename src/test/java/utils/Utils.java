@@ -15,6 +15,23 @@ public class Utils {
         return (int) randomID;
 
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public static String generateRandomName() {
+        String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"; // Includes letters and digits
+        StringBuilder name = new StringBuilder();
+        int length = 6;  // Set the length of the name as per your requirement
+
+        for (int i = 0; i < length; i++) {
+            int index = (int) (Math.random() * characters.length());
+            name.append(characters.charAt(index));
+        }
+        return name.toString();
+    }
+>>>>>>> 04c842f (Updated new)
+>>>>>>> 2c42c66 (Upload new code)
 
 //    public static void main(String[] args) {
 //        int num = generateRandomNumber(100, 500);

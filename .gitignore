@@ -1,11 +1,19 @@
 .gradle
 build/
+<<<<<<< HEAD
+=======
+gradle
+>>>>>>> 2c42c66 (Upload new code)
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 .idea
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2c42c66 (Upload new code)
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
