@@ -1,9 +1,36 @@
-<<<<<<< HEAD
-[{"firstName":"Garret","lastName":"Hansen","password":"1234","phoneNumber":"01234700896","address":"Apt. 784 23538 Schiller Trail, North Natividad, NM 55630","email":"carissa.windler@gmail.com"},{"firstName":"Zackary","lastName":"Prosacco","password":"1234","phoneNumber":"01234689714","address":"047 Jacqulyn Corners, East Noehaven, CO 93901","email":"isreal.price@gmail.com"},{"firstName":"Elizbeth","lastName":"Homenick","password":"1234","phoneNumber":"01234726947","address":"9534 Art Lock, Port Donteburgh, KY 37074-6402","email":"doug.raynor@gmail.com"},{"firstName":"Kourtney","password":"1234","phoneNumber":"01234106170","email":"collette.spencer@hotmail.com"},{"firstName":"Erasmo","lastName":"Heller","password":"1234","phoneNumber":"01234614449","address":"305 Donnetta Curve, Port Esteban, UT 08086-5448","email":"eric.price@gmail.com"},{"firstName":"Chet","password":"1234","phoneNumber":"01234748743","email":"alonzo.russel@gmail.com"}]
-=======
-<<<<<<< HEAD
-[{"firstName":"Garret","lastName":"Hansen","password":"1234","phoneNumber":"01234700896","address":"Apt. 784 23538 Schiller Trail, North Natividad, NM 55630","email":"carissa.windler@gmail.com"},{"firstName":"Zackary","lastName":"Prosacco","password":"1234","phoneNumber":"01234689714","address":"047 Jacqulyn Corners, East Noehaven, CO 93901","email":"isreal.price@gmail.com"},{"firstName":"Elizbeth","lastName":"Homenick","password":"1234","phoneNumber":"01234726947","address":"9534 Art Lock, Port Donteburgh, KY 37074-6402","email":"doug.raynor@gmail.com"},{"firstName":"Kourtney","password":"1234","phoneNumber":"01234106170","email":"collette.spencer@hotmail.com"},{"firstName":"Erasmo","lastName":"Heller","password":"1234","phoneNumber":"01234614449","address":"305 Donnetta Curve, Port Esteban, UT 08086-5448","email":"eric.price@gmail.com"},{"firstName":"Chet","password":"1234","phoneNumber":"01234748743","email":"alonzo.russel@gmail.com"}]
-=======
-[{"firstName":"Sara","lastName":"Shorab","password":"1234","phoneNumber":"01234161538","address":"Apt. 839 208 Herzog Ford, East Enoch, CO 41990-1440","email":"sara1234@gmail.com"},{"firstName":"Mirella","password":"1234","phoneNumber":"01234208314","email":"51IWPk@gmail.com"},{"firstName":"Johnetta","password":"1234","phoneNumber":"01234962930","email":"ozo5K3@gmail.com"},{"firstName":"Antwan","lastName":"Franecki","password":"1234","phoneNumber":"01234396460","address":"17714 Issac Haven, Port Barryshire, SD 31661","email":"NPWKlz@gmail.com"},{"firstName":"Rosanne","password":"1234","phoneNumber":"01234600384","email":"0qmudy@gmail.com"}]
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
+[
+  {
+    "firstName": "Sara",
+    "lastName": "Shorab",
+    "password": "1234",
+    "phoneNumber": "01234161538",
+    "address": "Apt. 839 208 Herzog Ford, East Enoch, CO 41990-1440",
+    "email": "sara1234@gmail.com"
+  },
+  {
+    "firstName": "Mirella",
+    "password": "1234",
+    "phoneNumber": "01234208314",
+    "email": "51IWPk@gmail.com"
+  },
+  {
+    "firstName": "Johnetta",
+    "password": "1234",
+    "phoneNumber": "01234962930",
+    "email": "ozo5K3@gmail.com"
+  },
+  {
+    "firstName": "Antwan",
+    "lastName": "Franecki",
+    "password": "1234",
+    "phoneNumber": "01234396460",
+    "address": "17714 Issac Haven, Port Barryshire, SD 31661",
+    "email": "NPWKlz@gmail.com"
+  },
+  {
+    "firstName": "Rosanne",
+    "password": "1234",
+    "phoneNumber": "01234600384",
+    "email": "0qmudy@gmail.com"
+  }
+]

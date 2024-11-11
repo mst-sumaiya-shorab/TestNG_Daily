@@ -55,15 +55,7 @@ public class RegistrationPage {
         btnGender.get(1).click();
         chkAccept.click();
 
-<<<<<<< HEAD
-        Thread.sleep(5000);
-=======
-<<<<<<< HEAD
-        Thread.sleep(5000);
-=======
         Thread.sleep(3000);
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
         btnSubmitReg.click();
 
     }

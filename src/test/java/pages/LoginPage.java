@@ -31,15 +31,8 @@ public class LoginPage {
         txtEmail.sendKeys(email);
         txtPassword.sendKeys(password);
         btnLogin.click();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
   //      doLogout();
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
     }
 
     public void doLogout() {

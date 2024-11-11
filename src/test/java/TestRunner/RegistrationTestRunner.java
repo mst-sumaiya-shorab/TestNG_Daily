@@ -52,30 +52,19 @@ public class RegistrationTestRunner extends Setup {
 //        Utils.saveUserInfo("./src/test/resources/users.json", userObj);
 //    }
 
-<<<<<<< HEAD
-    @Test(priority = 2, description = "User can register by dynamic all info")
-=======
-<<<<<<< HEAD
-    @Test(priority = 2, description = "User can register by dynamic all info")
-=======
     @Test(priority = 1, description = "User can register by dynamic all info", groups = "smoke")
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
+
     public void userRegDynamic() throws InterruptedException, IOException, ParseException {
         RegistrationPage userReg = new RegistrationPage(driver);
         Faker faker = new Faker();
         userReg.btnRegister.click();
         String firstname = faker.name().firstName();
         String lastname = faker.name().lastName();
-<<<<<<< HEAD
+
         String email = faker.internet().emailAddress();
-=======
-<<<<<<< HEAD
-        String email = faker.internet().emailAddress();
-=======
+
         String email =  Utils.generateRandomName() + "@gmail.com";
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
+
         String password = "1234";
         String phonenumber = "01234" + Utils.generateRandomNumber(100000, 999999);
         String address = faker.address().fullAddress();
@@ -106,15 +95,9 @@ public class RegistrationTestRunner extends Setup {
 
     }
 
-<<<<<<< HEAD
-    @Test(priority = 3, description = "User can register only Mandatory Fields")
-=======
-<<<<<<< HEAD
-    @Test(priority = 3, description = "User can register only Mandatory Fields")
-=======
+
     @Test(priority = 2, description = "User can register only Mandatory Fields")
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
+
     public void userRegMandatoryFields() throws InterruptedException, IOException, ParseException {
 
 
@@ -122,15 +105,9 @@ public class RegistrationTestRunner extends Setup {
         Faker faker = new Faker();
         userReg.btnRegister.click();
         String firstname = faker.name().firstName();
-<<<<<<< HEAD
         String email = faker.internet().emailAddress();
-=======
-<<<<<<< HEAD
-        String email = faker.internet().emailAddress();
-=======
         String email = Utils.generateRandomName() + "@gmail.com";
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
+
         String password = "1234";
         String phonenumber = "01234" + Utils.generateRandomNumber(100000, 999999);
 

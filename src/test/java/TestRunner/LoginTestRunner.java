@@ -16,16 +16,8 @@ import java.io.IOException;
 
 public class LoginTestRunner extends Setup {
     LoginPage loginPage;
-
-<<<<<<< HEAD
-    @Test(priority = 1, description = "Admin login with wrong password")
-=======
-<<<<<<< HEAD
-    @Test(priority = 1, description = "Admin login with wrong password")
-=======
     @Test(priority = 1, description = "Admin login with wrong password", groups = "smoke")
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
+
     public void adminLoginWrongPass() throws InterruptedException {
         loginPage = new LoginPage(driver);
         loginPage.doLogin("admin@test.com", "wrongpass");
@@ -38,21 +30,9 @@ public class LoginTestRunner extends Setup {
         Thread.sleep(3000);
     }
 
-<<<<<<< HEAD
-    @Test(priority = 2, description = "Admin login with right password")
-    public void adminLogin() throws InterruptedException {
-        LoginPage loginPage = new LoginPage(driver);
-=======
-<<<<<<< HEAD
-    @Test(priority = 2, description = "Admin login with right password")
-    public void adminLogin() throws InterruptedException {
-        LoginPage loginPage = new LoginPage(driver);
-=======
     @Test(priority = 2, description = "Admin login with right password", groups = "smoke")
     public void adminLogin() throws InterruptedException {
         loginPage = new LoginPage(driver);
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
         loginPage.doLogin("admin@test.com", "admin123");
         String headerActual = driver.findElement(By.tagName("h2")).getText();
         String headExpected = "Admin Dashboard";

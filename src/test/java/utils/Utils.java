@@ -15,10 +15,7 @@ public class Utils {
         return (int) randomID;
 
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
     public static String generateRandomName() {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"; // Includes letters and digits
         StringBuilder name = new StringBuilder();
@@ -30,8 +27,6 @@ public class Utils {
         }
         return name.toString();
     }
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
 
 //    public static void main(String[] args) {
 //        int num = generateRandomNumber(100, 500);

@@ -1,50 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <suite name="DailyFinance Automation">
     <test name="User Login">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
 <!--        <groups>-->
 <!--            <run>-->
 <!--                <include name="smoke"></include>-->
 <!--            </run>-->
 <!--        </groups>-->
 
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
         <classes>
             <class name="TestRunner.LoginTestRunner"></class>
         </classes>
 
     </test>
     <test name="User Register">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
 <!--        <groups>-->
 <!--            <run>-->
 <!--                <include name="smoke"></include>-->
 <!--            </run>-->
 <!--        </groups>-->
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
+
         <classes>
             <class name="TestRunner.RegistrationTestRunner"></class>
         </classes>
 
     </test>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
     <test name="Add cost">
         <classes>
             <class name="TestRunner.DashboardTestRunner"></class>
         </classes>
     </test>
->>>>>>> 04c842f (Updated new)
->>>>>>> 2c42c66 (Upload new code)
 
 </suite>
