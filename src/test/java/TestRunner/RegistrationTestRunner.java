@@ -61,8 +61,6 @@ public class RegistrationTestRunner extends Setup {
         String firstname = faker.name().firstName();
         String lastname = faker.name().lastName();
 
-        String email = faker.internet().emailAddress();
-
         String email =  Utils.generateRandomName() + "@gmail.com";
 
         String password = "1234";
@@ -105,7 +103,6 @@ public class RegistrationTestRunner extends Setup {
         Faker faker = new Faker();
         userReg.btnRegister.click();
         String firstname = faker.name().firstName();
-        String email = faker.internet().emailAddress();
         String email = Utils.generateRandomName() + "@gmail.com";
 
         String password = "1234";

@@ -57,6 +57,7 @@ public class LoginTestRunner extends Setup {
 
         Thread.sleep(5000);
         loginPage.doLogout();
+
     }
 
 
