@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5629","Admin login with right password","DailyFinance Automation","Fri Nov 15 01:13:06 BDT 2024","passed","Fri Nov 15 01:13:12 BDT 2024","TestRunner.LoginTestRunner","User Login","TestRunner.LoginTestRunner","adminLogin"
+"","6049","User can login with correct creds","DailyFinance Automation","Fri Nov 15 01:13:12 BDT 2024","passed","Fri Nov 15 01:13:18 BDT 2024","TestRunner.LoginTestRunner","User Login","TestRunner.LoginTestRunner","userLogin"
+"","8256","User can register only Mandatory Fields","DailyFinance Automation","Fri Nov 15 01:13:35 BDT 2024","passed","Fri Nov 15 01:13:43 BDT 2024","TestRunner.RegistrationTestRunner","User Register","TestRunner.RegistrationTestRunner","userRegMandatoryFields"
+"","13640","User can register by dynamic all info","DailyFinance Automation","Fri Nov 15 01:13:22 BDT 2024","passed","Fri Nov 15 01:13:35 BDT 2024","TestRunner.RegistrationTestRunner","User Register","TestRunner.RegistrationTestRunner","userRegDynamic"
+"","3334","Add cost for an item","DailyFinance Automation","Fri Nov 15 01:13:51 BDT 2024","passed","Fri Nov 15 01:13:54 BDT 2024","TestRunner.DashboardTestRunner","Add cost","TestRunner.DashboardTestRunner","addCost"
+"","5235","Admin login with wrong password","DailyFinance Automation","Fri Nov 15 01:13:01 BDT 2024","passed","Fri Nov 15 01:13:06 BDT 2024","TestRunner.LoginTestRunner","User Login","TestRunner.LoginTestRunner","adminLoginWrongPass"
